@@ -46,8 +46,8 @@ export default {
    options: {
       public: true,
       antiCall: true, // reject call
-      database: "database.json", // End .json when using JSON database or use Mongo URI
-      owner: ["6288292024190"], // set owner number on here
+      database: "mongodb+srv://inf_bot:bot123@adisp007-mongodb.a5lsv.mongodb.net/?retryWrites=true&w=majority&appName=adisp007-MongoDB", // End .json when using JSON database or use Mongo URI
+      owner: ["6285267609393"], // set owner number on here
       sessionName: "session", // for name session
       prefix: /^[°•π÷×¶∆£¢€¥®™+✓_=|/~!?@#%^&.©^]/i,
       pairingNumber: "" // Example Input : 62xxx
@@ -56,8 +56,8 @@ export default {
    // Set pack name sticker on here
    Exif: {
       packId: "https://dikaardnt.my.id",
-      packName: `Sticker Ini Dibuat Oleh :`,
-      packPublish: "Dika Ardnt.",
+      packName: `Bot ~INFINITY~`,
+      packPublish: "adisp007",
       packEmail: "okeae2410@gmail.com",
       packWebsite: "https://dikaardnt.my.id",
       androidApp: "https://play.google.com/store/apps/details?id=com.bitsmedia.android.muslimpro",
