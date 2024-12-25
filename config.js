@@ -55,11 +55,11 @@ export default {
 
    // Set pack name sticker on here
    Exif: {
-      packId: "https://dikaardnt.my.id",
+      packId: "~INFINITY~",
       packName: `Bot ~INFINITY~`,
       packPublish: "adisp007",
-      packEmail: "okeae2410@gmail.com",
-      packWebsite: "https://dikaardnt.my.id",
+      packEmail: "adisp007@gmail.com",
+      packWebsite: "https://toram-id.com/guilds/16",
       androidApp: "https://play.google.com/store/apps/details?id=com.bitsmedia.android.muslimpro",
       iOSApp: "https://apps.apple.com/id/app/muslim-pro-al-quran-adzan/id388389451?|=id",
       emojis: [],

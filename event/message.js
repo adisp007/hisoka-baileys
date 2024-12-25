@@ -203,7 +203,7 @@ export default async function Message(hisoka, m, chatUpdate) {
                 if (!m.isGroup) return m.reply("group")
                 if (!m.isAdmin) return m.reply("admin")
                 let mentions = m.metadata.participants.map(a => a.id)
-                let mod = await hisoka.cMod(m.from, quoted, /hidetag|tag|ht|h|totag/i.test(quoted.body.toLowerCase()) ? quoted.body.toLowerCase().replace(prefix + command, "") : quoted.body)
+                let mod = await hisoka.cMod(m.from, quoted, /hidetag|tag|ht|h|totag/i.test(quoted.body) ? quoted.body.replace(prefix + command, "") : quoted.body)
                 hisoka.sendMessage(m.from, { forward: mod, mentions })
             }
             break
